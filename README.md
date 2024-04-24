@@ -1,2 +1,2 @@
-# v_model_Implement
-make a v_model implement
+### Vue 源码解析
+1. v-model 双向绑定原理
