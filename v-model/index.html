@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <span>{{ name }}</span>
+        <input type="text" v-model="name"></intput>
+        <span>{{ more.like }}</span>
+        <input type="text" v-model="more.like"></input>
+    </div>
+    <script src="./vue.js"></script>
+    <script>
+        const vm = new Vue({
+            el: '#app',
+            data: {
+                name: 'terry',
+                more: {
+                    like: '吃的'
+                }
+            }
+        });
+        console.log(vm)
+    </script>
+</body>
+
+</html>
